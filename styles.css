@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #66c2ff;
+}
+
+.works-list li::before {
+    content: "\2022";
+    color: #66c2ff;
+    margin-right: 10px;
+}
+
+.projects-list li::before {
+    content: "\25BA";
+    color: #66c2ff;
+    margin-right: 10px;
+}
