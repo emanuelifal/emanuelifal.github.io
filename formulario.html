@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
     <h1> Travel Reservation Form </h1>
+    <p> <b>* denotes mandotory </b></p>
     <p> Full name*: 
-        <br><input type="text" placeholder="Full name">
+        <br><input type="text" placeholder="FirstName LastName" required>
     </p>
-    <p> Email address*:
-        <br><input type="Email address" placeholder="Email_address">    
-    </p>
-    <p> Select Tour Package*:
-    <br><select>
-        <option value="opção 1">Goa</option>
-        <option value="opção 2">Andhra Pradesh</option>
-        <option value="opção 3">Haryana</option>
-        <option value="opção 4">Assam</option>
-    </select>
+
+
+    <div><p> Email address*:
+            <br><input type="email" placeholder="EMAIL_ADDRESS" required>    
+        </p>
+    </div>
+    
+
+    <div>
+            <p> Select Tour Package*:
+        <br><select id="selecttour">
+            <option value="opção 1">Goa</option>
+            <option value="opção 2">Andhra Pradesh</option>
+            <option value="opção 3">Haryana</option>
+            <option value="opção 4">Assam</option>
+        </select>
+    </div>
+    
+
 </p>
 <p> Arrivel date*: 
     <br> <input type="date">
 </p>
 
 <p> Number of persons*:
-<br> <input type="number" placeholder="Unknown_type">
+<br> <input type="number" placeholder="Unknown_type" required min="1" max="9">
 <p> What would you want to avail?*
 
 <br> Boarding <input type="checkbox">
@@ -35,11 +45,11 @@
 <br> Sight seeing <input type="checkbox">
 </p>
 <p>Discount Coupon code:
-<br> <input type="text" placeholder="Unknown_type">
+<br> <input type="text" placeholder="UNKNOWN_TYPE" required maxlength="6">
 </p>
 <p> Terms and conditions*
 <br> <input type="radio"> I agree <input type="radio"> I disagree
-<br> <input type="submit" value="complete reservation">
+<br> <input type="submit" value="Complete reservation">
 </p>
 
 </body>
