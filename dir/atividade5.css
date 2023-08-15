@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.esqcima{
+    background-color: red;
+    left: 1;
+    top: 1;
+}
+.esqbaixo{
+    background-color: yellow;
+    left: 1;
+    bottom: 1;
+}
+.dircima{
+    background-color: green;
+    right: 1;
+    top: 1;
+}
+.dirbaixo{
+    background-color: blue;
+    right: 1;
+    bottom: 1;
+}
