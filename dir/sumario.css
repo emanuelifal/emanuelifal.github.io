@@ -1,0 +1,53 @@
+/* Estilos para o sumário do curso */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ol {
+    list-style: none;
+}
+
+.topico {
+    margin-top: 20px;
+}
+
+.topico-titulo {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtopico {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.subtopico-titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+/* Estilos para links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
