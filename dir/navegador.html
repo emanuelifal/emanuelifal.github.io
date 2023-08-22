@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definição do tipo de documento e idioma -->
+    <meta charset="UTF-8">
+    <!-- Configuração da viewport para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Google</title>
+</head>
+<body>
+    <!-- Início da seção principal -->
+    <section>
+        <!-- Cabeçalho da página -->
+        <header class="center">
+            <!-- Parte esquerda do cabeçalho -->
+            <div>
+                <label for=""><a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a></label>
+                <label for=""><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Loja</a></label>
+            </div>
+            <!-- Parte direita do cabeçalho -->
+            <div>
+                <label for=""><a href="https://mail.google.com/mail/&ogbl">Gmail</a></label>
+                <label for=""><a href="https://www.google.com/imghp?hl=pt-BR&ogbl">Imagens</a></label>
+                <label for=""><a href=""><img src="https://momentocoaching.files.wordpress.com/2016/08/nine-dots.png" alt="grade" width="30" height="30"></a></label>
+                <label for=""><a href=""><img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-rouge.png" alt="user" width="40" height="30"></a></label>
+            </div>
+        </header>
+        
+        <!-- Início da seção de conteúdo -->
+        <section class="conteiner"> 
+            <section>
+                <!-- Primeira seção principal -->
+                <div class="main">
+                    <img src="https://assets.change.org/photos/5/vs/tn/BwVStnRymfMVqHh-1600x900-noPad.jpg?1553228972" alt="" id="logo-do-google">
+                </div>
+                <!-- Segunda seção principal -->
+                <div class="main">
+                    <input type="text" id="">
+                </div>
+                <br>
+                <!-- Terceira seção principal -->
+                    <div class="main">
+                        <a href="https://www.google.com/?&bih=651&biw=1349&hl=pt-BR">
+                            <button>Pesquisa no Google</button>
+                        </a>
+                        <label for="">⠀</label>
+                        <a href="https://www.google.com/?&bih=651&biw=1349&hl=pt-BR">
+                            <button>Estou com Sorte</button>
+                        </a>
+                    
+                    
+                </div>
+                
+            </section>
+        </section>
+        
+      
+        <footer class="center">
+         
+            <div class="left">
+                <label for=""><a href="">Anúncio</a></label>
+                <label for=""><a href="">Negócios</a></label>
+            </div>
+           
+            <div class="right">
+                <label for=""><a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">Privacidade</a></label>
+                <label for=""><a href="https://policies.google.com/terms?hl=pt-BR&fg=1">Termos</a></label>
+                <label for=""><a href="">Configurações</a></label>
+            </div>
+        </footer>
+    </section>
+</body>
+<style>
+   
+    .main {
+        display: flex; /* Exibir elementos em um flex container */
+        flex-direction: row; /* Organizar itens em uma linha */
+        justify-content: center; /* Centralizar horizontalmente */
+        align-items: center; /* Centralizar verticalmente */
+    }
+    
+   
+    body {
+        font-family: sans-serif; /* Definir a família de fontes para o corpo do documento */
+        margin: 0; /* Remover margens */
+        padding: 0; /* Remover preenchimentos */
+        padding-top: 20px; /* Adicionar espaço superior */
+    }
+    
+
+    .conteiner {
+        height: 92vh; /* Altura ocupando 92% da viewport */
+        display: flex; /* Exibir elementos em um flex container */
+        flex-direction: row; /* Organizar itens em uma linha */
+        justify-content: center; /* Centralizar horizontalmente */
+        align-items: center; /* Centralizar verticalmente */
+    }
+    
+
+    #logo-do-google {
+        height: 200px;
+        cursor: auto; /* Definir o cursor como padrão */
+    }
+    
+    /* Estilização para elementos do tipo input e input em foco */
+    input,
+    input:focus {
+        color: grey; /
+        font-size: medium; 
+        width: 582px; 
+        height: 46px; 
+        border-radius: 100px; 
+        border: solid 1px; 
+        justify-content: center;
+        align-items: center; 
+        display: flex; 
+    }
+    
+    /* Estilização para botões */
+    button {
+        cursor: pointer; /* Definir o cursor como ponteiro */
+        width: 150px; /* Largura do botão */
+        height: 40px; /* Altura do botão */
+        border-radius: 3px; /* Arredondamento das bordas */
+        background-color: whitesmoke; /* Cor de fundo */
+        color: grey; /* Cor do texto */
+        border: 0; /* Remover borda */
+    }
+    
+    footer label {
+        padding: 10px; /* Adicionar espaçamento interno */
+    }
+    
+  
+    header label {
+        padding-left: 10px; 
+        padding-right: 10px; 
+        padding-top: 0px;
+    }
+    
+    /* Estilização para cabeçalho e rodapé */
+    header,
+    footer {
+        position: absolute; 
+        width: 100%;
+        height: 7vh; /* Altura de 7% da viewport */
+        color: grey; 
+    }
+    
+    
+    footer {
+        background: whitesmoke; 
+        bottom: 0;
+        display: inline-block;
+        flex-direction: row; 
+        align-items: center; 
+    }
+    
+    /* Estilização para o cabeçalho */
+    header {
+        height: 5vh; /* Altura de viewport */
+    }
+    
+    /* Estilização para links */
+    a {
+        text-decoration: none; 
+        color: grey; 
+    }
+    
+    /* Estilização para links ao passar o mouse por cima */
+    a:hover {
+        text-decoration: underline; 
+    }
+    
+    button:hover {
+        border-color: grey;
+        border: solid 1px; 
+    }
+    
+    input:hover,
+    input:focus {
+        background-color: whitesmoke; 
+    }
+    
+   
+    .center {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    </style>
+    </html>
