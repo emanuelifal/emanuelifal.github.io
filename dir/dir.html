@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h3>HTML e CSS</h3>
+        </div>
+        </header>
+    <section class="grid">
+        <div class="card">
+            <h3>Projeto 1</h3>
+            <p>Formulário</p>
+            <button><a href="formulario.html" target="_blank">Acesse</a></button>
+        </div>
+        <div class="card">
+            <h3>Projeto 2</h3>
+            <p>Lista</p>
+            <button><a href="sumario.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 3</h3>
+            <p>Música</p>
+            <button><a href="musica.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 4</h3>
+            <p>Linguagem</p>
+            <button><a href="liguaguem.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 5</h3>
+            <p>iFrame</p>
+            <button><a href="noticias.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 6</h3>
+            <p>Posicionamento</p>
+            <button><a href="css.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 7</h3>
+            <p>Matricula de Aluno</p>
+            <button><a href="matricula.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 8</h3>
+            <p>Formulário com CSS</p>
+            <button><a href="surveyform.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 9</h3>
+            <p>Navegador</p>
+            <button><a href="navegador.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 10</h3>
+            <p>Homenagem</p>
+            <button><a href="homenagem.html" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 11</h3>
+            <p>Grid</p>
+            <button><a href="" target="_blank">Acesse</a></button>            
+        </div>
+        <div class="card">
+            <h3>Projeto 12</h3>
+            <p>Tabela Brasileirão 2019</p>
+            <button><a href="tabelabr.html">Acesse</a></button>            
+        </div>
+    </section>
+</body>
+<style>
+    body{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-family: inter;
+        background-color: #1b1b1b;
+    }
+    .grid{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        width: 80vw;
+        height: 80vh;
+    }
+    header{
+        height: 7vh;
+        width: 80vw;
+        background-color: #2a2a2a;
+        margin-bottom: 10px;
+        align-items: center;
+        display: flex;
+    }
+    .card{
+        background-color: #2a2a2a;
+        padding: 0px 25px 25px 25px;
+    }
+    .top{
+        padding: 0px 25px 0px 25px;
+    }
+    h3{
+        color: #eaa606;
+    }
+    a{
+        color: #eaa606;
+        text-decoration: none;
+    }
+    p{
+        color: #a7a7a7;
+    }
+    button{
+        height: 30%;
+        width: 20%;
+        border-radius: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: #ffe7ae;
+    }
+</style>
+</html>
