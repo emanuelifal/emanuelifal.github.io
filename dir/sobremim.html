@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <div class="padding top">
+            <h1 class="textofino">Oi!</h1>
+            <h1 class="sobre-mim">
+                Sou Emanuel Carlos, estou cursando Desenvolvimento de Sistemas no IFAL.
+            </h1>
+            <h3 class="textofino">Maceió-AL</h3>
+            <div>
+                <a href="https://github.com/emanuelifal" target="_blank"><mark>GitHub</mark></a>
+                <a href="https://codepen.io/emanuelifal" target="_blank"><mark>CodePen</mark></a>
+                <a href="mailto:ecsp2@aluno.ifal.edu.br" target="_blank"><mark>Email</mark></a>
+                <hr>
+            </div>
+        </div>
+        <div class="padding">
+            <h2>Competências</h2>
+            <div class="textalign">
+                <div class="expirenciastexto">
+                    <h3 class="textofino"><strong>HTML</strong> <br>
+                    Intermediário</h3>
+                </div>
+                <p>Conheci HTML durante meu aprendizado no 2° ano do Ensino Médio, e estou buscando me aperfeiçoar cada vez mais!</p>
+            </div>
+            <div class="textalign">
+                <div class="expirenciastexto">
+                    <h3 class="textofino"><strong>Js</strong> <br>
+                Amador</h3>
+                </div> 
+                <p>Possuo a base de js, porém há tem muito o que aprender.</p>
+            </div>
+            <h2>Escola</h2>
+            <div class="textalign">
+                <div class="expirenciastexto">
+                    <h3 class="textofino"><strong>IFAL</strong> <br>
+                    2022-2025</h3>
+                </div>
+                <p>
+                    O IFAL (Instituto Federal de Educação, Ciência e Tecnologia de Alagoas)é uma organização de aprendizado pública nacional situada no estado de Alagoas, Brasil. O IFAL faz parte da malha de Institutos Federais do Brasil, que proporcionam formação profissional, tecnológica e de nível elevado em variadas esferas.</p>
+            </div>
+        </div>
+</body>
+<style>
+    body{
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    .grid{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 100%;
+    }
+    .sobre-mim{
+        width: 35%;
+        font-size: 28px;
+    }
+    .padding{
+        margin: 10px 30px 0 30px;
+    }
+    mark{
+        background-color: #e6e6fa;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .textalign{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .expirenciastexto{
+        width: 10%;
+        padding-right: 1%;
+    }
+    p{
+        width: 100%;
+    }
+    .textofino{
+        font-weight: 200;
+    }
+    a, a:link, a:visited, a:hover{
+    color: black;
+    padding: 0px 16px 0px 0px;
+    text-decoration:underline;
+    }
+    @media (max-width: 1000px){
+        .expirenciastexto{
+        width: 10%;
+        padding-right: 5%;
+    }
+    }
+    @media (max-width: 760px){
+        .expirenciastexto{
+        width: 10%;
+        padding-right: 10%;
+    }
+    .sobre-mim{
+        width: 100%;
+        font-size: 28px;
+    }
+    }
+    @media (max-width: 580px){
+    .expirenciastexto{
+        width: 10%;
+        padding-right: 20%;
+    }
+    }
+    @media (max-width: 420px){
+    .expirenciastexto{
+        width: 10%;
+        padding-right: 25%;
+    }
+    }
+    @media (max-width: 320px){
+        .expirenciastexto{
+        width: 10%;
+        padding-right: 30%;
+    }
+    }
+</style>
+</html>
