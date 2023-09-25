@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Online - Restaurante Sakura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .area-entrega {
+            list-style: none;
+            padding: 0;
+        }
+        .area-entrega li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h2>Realize seu Pedido Online</h2>
+
+        <h3>Áreas de Entrega</h3>
+        <ul class="area-entrega">
+            <li>Novo Jardim: Entrega em até 10 minutos</li>
+            <li>Jardim Royal: Entrega em até 15 minutos</li>
+            <li>Maceió I: Entrega em até 20 minutos</li>
+            <li>Grand Jardim: Entrega em até 30 minutos</li>
+        </ul>
+
+        <h3>Faça seu Pedido</h3>
+        <form action="#" method="post">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" required>
+            </div>
+            <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="endereco" name="endereco" required>
+            </div>
+            <div class="mb-3">
+                <label for="area" class="form-label">Áreas de Entrega</label>
+                <select class="form-select" id="area" name="area" required>
+                    <option value="" disabled selected>Selecione a Área</option>
+                    <option value="area1">Novo Jardim</option>
+                    <option value="area2">Jardim Royal</option>
+                    <option value="area3">Maceió I</option>
+                    <option value="area4">Grand Jardim</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Pedido</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
