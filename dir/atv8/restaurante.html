@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Japonês Sakura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="restaurante.css">
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>Restaurante Sakura</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuBar" aria-controls="menuBar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="menuBar" aria-labelledby="menuBarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="menuBarLabel">Home</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="menurestaurante.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agendamento.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pedidosonline.html">Peça Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="slide-comidas" class="carousel slide slide-comidas">
+        <div class="carousel-indicators">
+            <button data-bs-target="#slide-comidas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button data-bs-target="#slide-comidas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button data-bs-target="#slide-comidas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="descricao">Sushi Delicioso</div>
+                <img src="https://media.istockphoto.com/id/123380944/pt/foto/uma-foto-de-alta-defini%C3%A7%C3%A3o-de-sushi-variados-de-alto-%C3%A2ngulo.jpg?s=1024x1024&w=is&k=20&c=XznBweGnko2Qtlf1TZoT-T-0lG3wh8XPP5B8RltMhpE=" class="d-block mx-auto" alt="Sushi">
+            </div>
+            <div class="carousel-item">
+                <div class="descricao">Tempura Crocante</div>
+                <img src="https://media.istockphoto.com/id/515471382/pt/foto/conjunto-de-roll.jpg?s=1024x1024&w=is&k=20&c=RM9d7YEJbFU4LCcQLvmCwsYSnrW8Jenk5TUpsDMsotQ=" class="d-block mx-auto" alt="Tempura">
+            </div>
+            <div class="carousel-item">
+                <div class="descricao">Sashimi Fresco</div>
+                <img src="https://media.istockphoto.com/id/515471660/pt/foto/conjunto-de-roll.jpg?s=1024x1024&w=is&k=20&c=MT1w9WjcueTjYtRuJI1zZh2ffedoY9PIG5fpSPoARwI=" class="d-block mx-auto" alt="Sashimi">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#slide-comidas" data-bs-slide="prev"></button>
+        <button class="carousel-control-next" data-bs-target="#slide-comidas" data-bs-slide="next"></button>
+    </div>
+    <div class="container mt-5">
+        <h2>Horários de Funcionamento</h2>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Domingo
+                <span class="badge bg-primary">11:00 - 21:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Segunda-feira
+                <span class="badge bg-primary">10:00 - 22:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Terça-feira
+                <span class="badge bg-primary">10:00 - 22:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Quarta-feira
+                <span class="badge bg-primary">10:00 - 22:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Quinta-feira
+                <span class="badge bg-primary">10:00 - 22:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Sexta-feira
+                <span class="badge bg-primary">10:00 - 23:00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Sábado
+                <span class="badge bg-primary">11:00 - 23:00</span>
+            </li>
+        </ul>
+    </div>
+    
+    <h2>Conheça Nossos Pratos</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLLnDijpzrOiQNXva920inOn86Biebh99fy4t-DImNNQ&s" alt="Prato 1" class="img-fluid">
+                <h4>Sushi Especial</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLLOAwEz1ytXGvPzAJgrhYnav30z8i2cTsJMBo5zEWg&s" alt="Prato 2" class="img-fluid">
+                <h4>Tempura Misto</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaxW7545MXXBiDloEXUYM9B6sLDEScSoKkEnHKMdzuew&s" alt="Prato 3" class="img-fluid">
+                <h4>Sashimi Variado</h4>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    
+    <div class="container mt-5" id="avaliacao">
+        <h2>Avalie nosso Restaurante</h2>
+        <div class="rating-stars" id="stars">
+            <i class="fas fa-star" onclick="setRating(1)"></i>
+            <i class="fas fa-star" onclick="setRating(2)"></i>
+            <i class="fas fa-star" onclick="setRating(3)"></i>
+            <i class="fas fa-star" onclick="setRating(4)"></i>
+            <i class="fas fa-star" onclick="setRating(5)"></i>
+        </div>
+        <br>
+        <textarea class="form-control" id="comment" placeholder="Deixe um comentário"></textarea>
+        <br>
+        <button class="btn btn-primary" onclick="submitReview()">Enviar Avaliação</button>
+    </div>
+
+
+   
+    <script>
+        var rating = 0;
+
+        function setRating(value) {
+            rating = value;
+            var stars = document.querySelectorAll('#stars .fa-star');
+            stars.forEach(function(star, index) {
+                if (index < value) {
+                    star.classList.add('fa-star');
+                    star.classList.remove('fa-star-o');
+                } else {
+                    star.classList.remove('fa-star');
+                    star.classList.add('fa-star-o');
+                }
+            });
+        }
+
+        function submitReview() {
+            var comment = document.getElementById('comment').value;
+
+            var comentarios = document.getElementById('comentarios');
+            var div = document.createElement('div');
+            div.classList.add('card', 'mt-3');
+            div.innerHTML = `
+                <div class="card-body">
+                    <h5 class="card-title">Cliente Novo</h5>
+                    <div class="rating-stars">
+                        ${'<i class="fas fa-star"></i>'.repeat(rating)}
+                        ${'<i class="fas fa-star-o"></i>'.repeat(5 - rating)}
+                    </div>
+                    <p class="card-text">${comment}</p>
+                </div>
+            `;
+            comentarios.appendChild(div);
+        }
+    </script>
+    
+<div class="container mt-5" id="comentarios">
+    <h2>Comentários</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Márcio</h5>
+            <div class="rating-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p class="card-text">Comida muito boa! Melhor sushi da região.</p>
+        </div>
+    </div>
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Cliente Anônimo</h5>
+            <div class="rating-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-o"></i>
+            </div>
+            <p class="card-text">Pode melhorar...</p>
+        </div>
+    </div>
+</div>
+<hr>
+ <!-- Rodapé -->
+
+
+ <footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Seções</h5>
+                <ul class="list-unstyled">
+                    <li><a href="menurestaurante.html" class="text-white">Menu</a></li>
+                    <li><a href="agendamento.html" class="text-white">Reservas</a></li>
+                    <li><a href="pedidosonline.html" class="text-white">Peça Online</a></li>
+                    <li><a href="faleconosco.html" class="text-white">Fale Conosco</a></li>
+                    <li><a href="sobrenos.html" class="text-white">Sobre Nós</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Redes</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.instagram.com/emanuelcarlosss" class="text-white">Instagram</a></li>
+                    <li><a href="https://www.yelp.com.br/" class="text-white">Yelp</a></li>
+                </ul>
+            </div>
+  
+            </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://kit.fontawesome.com/b03cf2bbe7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
