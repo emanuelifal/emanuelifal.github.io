@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulário de Reserva</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Formulário de Reserva</h1>
+    <form>
+        <div class="form-group">
+            <label for="data">Data da Reserva</label>
+            <input type="date" class="form-control" id="data" required>
+        </div>
+        <div class="form-group">
+            <label for="horario">Horário</label>
+            <input type="time" class="form-control" id="horario" required>
+        </div>
+        <div class="form-group">
+            <label for="tamanhoGrupo">Tamanho do Grupo</label>
+            <input type="number" class="form-control" id="tamanhoGrupo" min="1" max="10" required>
+        </div>
+        <div class="form-group">
+            <label for="contato">Telefone para Contato</label>
+            <input type="number" class="form-control" id="contato" min="8" max="11" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+    </form>
+
+    <div class="mt-5">
+        <h2>Política de Reservas</h2>
+        <p>
+            <strong>Cancelamento:</strong>
+            Pedimos a gentileza de nos notificar com pelo menos 24 horas de antecedência caso precise cancelar ou reagendar sua reserva. Isso nos permite ajustar nossa programação para acomodar outros clientes.
+        </p>
+        <p>
+            <strong>Confirmação de Reservas:</strong>
+            Após enviar o formulário de reserva, você receberá um e-mail de confirmação dentro de 24 horas. Por favor, verifique sua caixa de entrada e, se necessário, sua pasta de spam.
+        </p>
+        <p>
+            <strong>Tamanho do Grupo:</strong>
+            Nosso estabelecimento pode acomodar grupos de até 10 pessoas. Caso seu grupo exceda esse limite, por favor, entre em contato conosco com antecedência para discutir opções de acomodação.
+        </p>
+        <p>
+            <strong>Atrasos:</strong>
+            Por favor, esteja ciente de que reservamos sua mesa por até 15 minutos após o horário agendado. Caso haja atraso, entre em contato conosco para informar sobre a situação.
+        </p>
+    </div>
+    
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
