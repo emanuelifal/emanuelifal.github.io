@@ -21,8 +21,8 @@ body {
     height: var(--tamanho-img);
     display: flex;
     overflow: hidden;
-    background-color: #fff;
-    border: 10px solid #000;
+    background-color: blue;
+    border: 1px solid;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
     margin-bottom: 20px;
