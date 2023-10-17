@@ -13,7 +13,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #ddd;
+    background-color: red;
 }
 
 #slide {
