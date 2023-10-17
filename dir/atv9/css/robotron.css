@@ -22,7 +22,7 @@ body {
     display: flex;
     overflow: hidden;
     background-color: blue;
-    border: 1px solid;
+    border: 1;
     border-bottom: none;
     border-radius: 1px 1px 1 1;
     margin-bottom: 20px;
