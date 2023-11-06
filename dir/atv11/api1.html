@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Domínio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://images5.alphacoders.com/123/1232699.png'); /* Substitua o caminho pelo URL da imagem */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .imgRegistrado{
+            width: 90px;
+            height: 90px;
+        }
+        .button{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Consulta de Domínio</h1>
+        <label for="domainInput">Digite o domínio:</label>
+        <input type="text" class="form-control" id="domainInput" placeholder="Exemplo: brasilapi.com.br">
+        <button class="btn btn-primary" onclick="consultarDominio()">Consultar</button>
+        <div class="mt-3" id="result"></div>
+    </div>
+
+    <script src="agenda.js"></script>
+</body>
+</html>
